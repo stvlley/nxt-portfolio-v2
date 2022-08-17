@@ -1,17 +1,17 @@
 import {AiFillHtml5, } from 'react-icons/ai'
 import {DiCss3 } from 'react-icons/di'
-
+import {Parallax, ParallaxLayer }from '@react-spring/parallax'
 export default function Skills() {
   return (
         <>
 
-        <div name='skills' className='  w-full h-[700px] text-white'>
+        <div name='skills' className='bg-skills-img  w-full h-[700px] text-white'>
 
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col items-center justify-center w-full h-full'>
-          <div className='hover:scale-110 duration-500 '>
+          <div className='mx-[315px] p-4 hover:scale-110 duration-500 '>
               <p className='rounded-lg text-4xl font-bold inline'>Skills</p>
           </div>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col items-center justify-center w-full h-full'>
       
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

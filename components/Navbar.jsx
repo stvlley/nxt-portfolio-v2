@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
+  const [textColor, setTextColor] = useState('#d4f6fa');
 
   const handleNav = () => {
     setNav(!nav);
@@ -18,7 +18,7 @@ const Navbar = () => {
         setTextColor('#374151');
       } else {
         setColor('transparent');
-        setTextColor('#ffffff');
+        setTextColor('#d4f6fa');
       }
     };
     window.addEventListener('scroll', changeColor);
@@ -29,7 +29,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 '>
         <Link href='/'>
           <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
             s_talley

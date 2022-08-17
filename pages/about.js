@@ -4,7 +4,7 @@ import Skills from '../components/Skills';
 
 const About = () => {
   return (
-    <div className='bg-skills-img'>
+    <div className=''>
         <AboutCard />
         <Skills />
     </div>

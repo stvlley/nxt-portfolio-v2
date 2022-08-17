@@ -8,7 +8,7 @@ const Hero = ({heading, message}) => {
   return (
     <div className='flex h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
       {/* Overlay */}
-      <div className='goup max-w-[1000px] mx-[315px] px-8 flex flex-col justify-center h-full'>
+      <div className='goup max-w-[1000px] mx-auto mx-[315px] px-8 flex flex-col justify-center h-full'>
         <h2 className='text-4xl hover:scale-110 duration-500  sm:text-4xl font-bold text-[#8892b0]'>Hey I'm,</h2>
         <h1 className='goup hover:scale-110 duration-500 text-4xl sm:text-7xl font-bold text-[#d4f6fa]'>
           Stephen Talley.

@@ -9,7 +9,7 @@ export default function Skills() {
 
     useEffect(() => {
       const handleResize = () => {
-        if (window.innerWidth > 1000){
+        if (window.innerWidth > 900){
             setSize(50)
         } else {
             setSize(30)

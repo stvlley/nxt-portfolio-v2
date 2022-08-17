@@ -19,7 +19,7 @@ export default function AboutCard() {
               <p className="">"Building the future one line of code at a time"</p>
             </div>
             <div className='hover:scale-110 duration-500 '>
-              <p className="text-sm sm:text-lg p-3 mb-5">Language agnostic Software Engineer always striving to sharpen my coding skills. I maintain a curious mindset and a logical and intuitive perspective that elevates my ability to find unconventional solutions to complex business problems. I stay sharp and diligent and always keep the bigger picture in sight. I believe consistency is key and unlocks all doors to opportunity.</p>  
+              <p className="text-sm sm:text-lg p-3 mb-5">Language agnostic Software Engineer always striving to sharpen my coding skills. I maintain a curious mindset and a logical and intuitive perspective that elevates my ability to find unconventional solutions to complex business problems. I stay sharp and diligent and always keep the bigger picture in sight. I believe consistency is key and unlocks all doors to opportunity. </p>  
             </div>
           </div>
       </div>

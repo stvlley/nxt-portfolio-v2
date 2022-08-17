@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero';
-import Instagram from '../components/InstagramImg';
-import Slider from '../components/Slider';
-import { SliderData } from '../components/SliderData';
+import About from './about';
+
 
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero heading="Stephen Talley" message="Software Engineer"/>
-      <Slider slides={SliderData} />
+      <About />
 
     </div>
   );

@@ -33,12 +33,12 @@ export default function Skills() {
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col  justify-center w-full h-full'>
-          <div className=' p-4 hover:scale-110 duration-500 '>
+          <div className='mt-6 p-4 hover:scale-110 duration-500 '>
               <p className='rounded-lg border-2 py-1 px-3 text-2xl md:text-4xl font-bold sm:inline shadow-gray-300 shadow-sm'>Skills</p>
           </div>
       
 
-          <div className='w-full text-sm md:text-lg text-gray-700 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+          <div className='w-full mb-5 text-sm md:text-lg text-gray-700 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4'>
               <div className=' rounded-lg pt-3 bg-white hover:scale-110 duration-500'>
                   <Image src='/html.svg' alt='' width={size} height={size} />
                   <p className='my-4'>HTML</p>

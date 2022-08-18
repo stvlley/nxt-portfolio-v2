@@ -11,7 +11,7 @@ const Hero = ({heading, message}) => {
       {/* Overlay */}
       <div className=' max-w-[1000px] mx-auto  px-8 flex flex-col justify-center h-full'>
         <h2 className='text-4xl hover:scale-110 duration-500  sm:text-4xl font-bold text-[#8892b0]'>Hey I'm,</h2>
-        <h1 className=' hover:scale-110 duration-500 text-4xl sm:text-7xl font-bold text-[#d4f6fa]'>
+        <h1 className=' hover:scale-110 duration-500 text-4xl sm:text-7xl font-bold text-[#ffffff]'>
           Stephen Talley.
         </h1>       
         <div className='hover:scale-110 duration-500'>

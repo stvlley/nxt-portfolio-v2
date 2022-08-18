@@ -5,7 +5,6 @@ import About from './about';
 import Work from './work';
 
 
-
 export default function Home() {
   return (
     <div>

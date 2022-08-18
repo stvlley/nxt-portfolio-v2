@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero';
 import About from './about';
+import Work from './work';
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Hero heading="Stephen Talley" message="Software Engineer"/>
       <About />
+      <Work />
 
     </div>
   );

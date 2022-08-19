@@ -17,7 +17,7 @@ const Hero = ({heading, message}) => {
         <div className='hover:scale-110 duration-500'>
         <Typical
         className=' text-xl sm:text-4xl font-bold text-[#8892b0]'
-        loop={Infinity}
+        loop={3}
         wrapper="b"
         steps={[
             `I'm a Web Developer 💻`,

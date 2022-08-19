@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useState, useEffect } from 'react';
 import Hero from '../components/Hero';
 import About from './about';
 import Work from './work';
-
+import { projectData } from '../data/projectData';
 
 export default function Home() {
+
+// console.log(projectData)
   return (
     <div>
       <Head>
@@ -15,7 +18,7 @@ export default function Home() {
       </Head>
       <Hero heading="Stephen Talley" message="Software Engineer"/>
       <About />
-      <Work />
+      <Work projects={projectData}/>
 
     </div>
   );

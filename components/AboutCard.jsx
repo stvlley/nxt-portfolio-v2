@@ -12,7 +12,7 @@ export default function AboutCard() {
             
       
           </div>
-          <div></div>
+
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='hover:scale-110 duration-500  text-center  sm:text-right text-2xl  sm:text-3xl md:text-6xl font-bold'>
